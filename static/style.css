@@ -1,0 +1,36 @@
+*{
+    padding:0 ;
+    margin:0
+     ;
+}
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+.form_input  input{
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    box-shadow:transparent ;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    height:40px ;
+}
+
+
+.form_input input:focus { 
+    outline: none;
+}
+ .error input {
+    border-color: var(--error-color);
+}
+
+.success input {
+    border-color: var(--success-color);
+}
+
+
+.form_input small {
+    color: var(--error-color);
+}
